@@ -23,7 +23,8 @@ pipeline {
         }
         stage('Complete') {
             steps {
-                echo 'Job Complete..!'
+                echo 'Imthiyas test-print'
+                echo 'Job Complete !'
             }
         }
     }
